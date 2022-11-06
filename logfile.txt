@@ -1,0 +1,76 @@
+nikhil patel@NIKHIL-PATEL-9 MINGW64 ~/Desktop/nikhil_pcc/055_nikhilpatel_pcc (main)
+$ git init
+Reinitialized existing Git repository in C:/Users/nikhil patel/Desktop/nikhil_pcc/055_nikhilpatel_pcc/.git/
+
+nikhil patel@NIKHIL-PATEL-9 MINGW64 ~/Desktop/nikhil_pcc/055_nikhilpatel_pcc (main)
+$ git status
+On branch main
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+nikhil patel@NIKHIL-PATEL-9 MINGW64 ~/Desktop/nikhil_pcc/055_nikhilpatel_pcc (main)
+$ git status
+On branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Notes_221106_190106 (1).pdf
+        nikhil resume_pcc.pdf
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+nikhil patel@NIKHIL-PATEL-9 MINGW64 ~/Desktop/nikhil_pcc/055_nikhilpatel_pcc (main)
+$ git add .
+
+nikhil patel@NIKHIL-PATEL-9 MINGW64 ~/Desktop/nikhil_pcc/055_nikhilpatel_pcc (main)
+$ git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Notes_221106_190106 (1).pdf
+        new file:   nikhil resume_pcc.pdf
+
+
+nikhil patel@NIKHIL-PATEL-9 MINGW64 ~/Desktop/nikhil_pcc/055_nikhilpatel_pcc (main)
+$ git commit -m "commited"
+[main (root-commit) 0b9ff4e] commited
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Notes_221106_190106 (1).pdf
+ create mode 100644 nikhil resume_pcc.pdf
+
+nikhil patel@NIKHIL-PATEL-9 MINGW64 ~/Desktop/nikhil_pcc/055_nikhilpatel_pcc (main)
+$ git status
+On branch main
+Your branch is based on 'origin/main', but the upstream is gone.
+  (use "git branch --unset-upstream" to fixup)
+
+nothing to commit, working tree clean
+
+nikhil patel@NIKHIL-PATEL-9 MINGW64 ~/Desktop/nikhil_pcc/055_nikhilpatel_pcc (main)
+$ git push origin
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 804.32 KiB | 19.15 MiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/nikhilpatel9/055_nikhilpatel_pcc.git
+ * [new branch]      main -> main
+
+nikhil patel@NIKHIL-PATEL-9 MINGW64 ~/Desktop/nikhil_pcc/055_nikhilpatel_pcc (main)
+$ git log
+commit 0b9ff4e222d419dd00f4f76f451a97bc543f8530 (HEAD -> main, origin/main)
+Author: Nikhil Patel <patelnikhil2605@gmail.com>
+Date:   Sun Nov 6 19:28:25 2022 +0530
+
+    commited
+
+nikhil patel@NIKHIL-PATEL-9 MINGW64 ~/Desktop/nikhil_pcc/055_nikhilpatel_pcc (main)
+$
